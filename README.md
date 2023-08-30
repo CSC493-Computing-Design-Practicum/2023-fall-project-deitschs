@@ -3,11 +3,17 @@
 
 I love to read and keep track of my favorite books. Unfortunately, I cannot bring my bookshelf everywhere I go... or can I? I hope to design a virtual representation of a bookshelf that I can modify by arranging and rearranging books in any way that I desire. 
 
-Concept: https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/blob/413e11aca654c67fc71e2c44ec02ea6ebf52a07f/concept.md
+**Concept:** https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/blob/413e11aca654c67fc71e2c44ec02ea6ebf52a07f/concept.md
+
+**Scope:** I hope to design a website, with the main feature being a bookshelf that can be toggled. This bookshelf will display the spines or covers of books with the goal of being able to toggle these books to move them around the bookshelf space. Another feature would be a way to hover the mouse over the book to view more information like the Author, Genre, Page length, etc. If I have more time, I would like to add more pages to the website where I can store my book reviews. This would mean I would like to make the books on the bookshelf clickable so that they can lead to the review pages. 
+
+**Vision:** The purpose is to create a website to display books. The intent is to combine my love of books with my computer science knowledge to create an interactive website. 
 
 ### Prerequisites
 
-What is likely to be needed to install and to run *Sierra's Virtual Bookshelf* go here. If nothing is required (i.e. it is a website), state so.
+I would like to make a website.
+HTML, Javascript, CSS
+Server hosting? smarter asp?
 
 ## Built With
 
@@ -17,7 +23,8 @@ What is likely to be needed to install and to run *Sierra's Virtual Bookshelf* g
 
 ## Author
 
-- **Sierra Deitsch**: *Sierra's Virtual Bookshelf* [yourLinkedIn or yourGithub profile](https://adrress)
+- **Sierra Deitsch**: *Sierra's Virtual Bookshelf*
+- [LinkedIn](https://www.linkedin.com/in/sierra-deitsch-12505a1a3)
 
 ## Acknowledgments
 
