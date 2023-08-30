@@ -1,11 +1,13 @@
-# *Replace with YourProposedProposedProjectName*
+# *Sierra's Virtual Bookshelf*
 ## Description/Motivation
 
-Your formally written project proposal description, and why it is useful/interesting/fun goes here. Try to be as descriptive as possible, as we will be discussing your project ideas during the brainstorming in class.
+I love to read and keep track of my favorite books. Unfortunately, I cannot bring my bookshelf everywhere I go... or can I? I hope to design a virtual representation of a bookshelf that I can modify by arranging and rearranging books in any way that I desire. 
+
+Concept: https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/blob/413e11aca654c67fc71e2c44ec02ea6ebf52a07f/concept.md
 
 ### Prerequisites
 
-What is likely to be needed to install and to run *YourProposedProjectName* go here. If nothing is required (i.e. it is a website), state so.
+What is likely to be needed to install and to run *Sierra's Virtual Bookshelf* go here. If nothing is required (i.e. it is a website), state so.
 
 ## Built With
 
@@ -15,7 +17,7 @@ What is likely to be needed to install and to run *YourProposedProjectName* go h
 
 ## Author
 
-- **Your name**: *YourProposadProjectName* [yourLinkedIn or yourGithub profile](https://adrress)
+- **Sierra Deitsch**: *Sierra's Virtual Bookshelf* [yourLinkedIn or yourGithub profile](https://adrress)
 
 ## Acknowledgments
 
