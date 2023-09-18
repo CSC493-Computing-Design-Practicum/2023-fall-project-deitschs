@@ -21,6 +21,10 @@ Server hosting? smarter asp?
 - [afreamework2](http://www.aframework2.io/): A second framework that is likly to be used goes here.
 - IDE, if applicable
 
+## Design
+
+https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/blob/9715e32899929cbc1e6db485517fcf8325d6ac5b/design.md
+
 ## Author
 
 - **Sierra Deitsch**: *Sierra's Virtual Bookshelf*
