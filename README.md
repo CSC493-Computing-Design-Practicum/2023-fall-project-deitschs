@@ -11,9 +11,7 @@ I love to read and keep track of my favorite books. Unfortunately, I cannot brin
 
 ### Prerequisites
 
-I would like to make a website.
-HTML, Javascript, CSS
-Server hosting? smarter asp?
+I would like to make a website. HTML, Javascript, CSS
 
 ## Built With
 
@@ -29,6 +27,9 @@ https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/
 
 - **Sierra Deitsch**: *Sierra's Virtual Bookshelf*
 - [LinkedIn](https://www.linkedin.com/in/sierra-deitsch-12505a1a3)
+
+## About
+- Sierra is a computer science major at Berea College. Her main hobby is reading young adult fantasy novels. She also loves watching animated TV shows and listening to Taylor Swift. 
 
 ## Acknowledgments
 
