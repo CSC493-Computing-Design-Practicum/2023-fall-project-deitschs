@@ -1,4 +1,9 @@
 # *Sierra's Virtual Bookshelf*
+
+Logo:
+![virtualbookshelflogo](https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/assets/69680782/d278c2ec-a71a-4fac-a03b-82fafbe7f5fa)
+
+
 ## Description/Motivation
 
 I love to read and keep track of my favorite books. Unfortunately, I cannot bring my bookshelf everywhere I go... or can I? I hope to design a virtual representation of a bookshelf that I can modify by arranging and rearranging books in any way that I desire. 
@@ -15,9 +20,8 @@ I would like to make a website. HTML, Javascript, CSS
 
 ## Built With
 
-- [afreamework1](http://www.aframework1.io/): A framework that is likly to be used goes here.
-- [afreamework2](http://www.aframework2.io/): A second framework that is likly to be used goes here.
-- IDE, if applicable
+- Virtual Studio
+- ASP.NET
 
 ## Design
 
@@ -33,9 +37,8 @@ https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/
 
 ## Acknowledgments
 
-- If you find code that you are going to use in YourProjectName, include author's name and URL here.
-- all who inspired the idea and/or the code in YourProjectName
-- other people you wish to acknowledge
+- https://www.w3schools.com/css/css_website_layout.asp
+- https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering
 
 ## License (not required initially)
 
