@@ -27,6 +27,10 @@ I would like to make a website. HTML, Javascript, CSS
 
 https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/blob/9715e32899929cbc1e6db485517fcf8325d6ac5b/design.md
 
+## Test Plan
+
+https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-deitschs/blob/0c64af509d2e7ff3a733959ddbe22f27585de5ff/test.plan.md
+
 ## Author
 
 - **Sierra Deitsch**: *Sierra's Virtual Bookshelf*
