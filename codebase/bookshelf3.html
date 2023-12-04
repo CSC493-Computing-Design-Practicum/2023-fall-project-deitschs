@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Bookshelf 1</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <script src="myscripts.js"></script>
+
+    <div class="header">
+        <h1 class="font-effect-shadow-multiple" font-weight="bold">Sierra's Virtual Bookshelf</h1>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="photography/virtualbookshelflogo.png" class="navbar-brand">
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bookshelf1.html">Regular Shelf</a></li>
+                <li><a href="bookshelf2.html">Floating Shelf</a></li>
+                <li class="active"><a href="bookshelf3.html">Mixed Shelves</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="leftcolumn">
+                <h2>Regular</h2>
+                <div class="bookshelf2">
+                    <div class="shelf2 toplefttop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 topmidtop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 toprighttop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 topleftbot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 topmidbot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 toprightbot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf midleft" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf midmid" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf midright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 botlefttop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 botmidtop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 botrighttop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 botleftbot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 botmidbot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf2 botrightbot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+            </div>
+            <div class="rightcolumn2">
+                <h2>Floating</h2>
+                <div class="floatingbookshelf2">
+                    <div class="floatingshelf2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </div>
+                    <div class="floatingshelf2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </div>
+                    <div class="floatingshelf2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </div>
+                    <div class="floatingshelf2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </div>
+                    <div class="floatingshelf2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </div>
+                    <div class="floatingshelf2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="bookholder2">
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="stacks/9bookstack.png" id="9bookstack" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="stacks/goodgirlsguidestack.png" id="goodgirlsguidestack" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="stacks/illumstack.png" id="illumstack" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="stacks/sandbstack.png" id="shadowandbonestack" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="stacks/ugliesstack.png" id="ugliesstack" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="stacks/switchedfatedstack.png" id="switchedfatedstack" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="covers/ruleofwolves.png" id="ruleofwolves" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    <img src="covers/kingofscars.png" id="kingofscars" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="covers/littlethieves.png" id="littlethieves" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    <img src="covers/painteddevils.png" id="painteddevils" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="covers/wehunttheflamecover.png" id="wehuntheflame" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    <img src="covers/wefreethestarscov.png" id="wefreethestars" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="covers/rayberarercov.png" id="raybearercov" class="book" draggable="true" ondragstart="drag(event)" />
+                    <img src="covers/redemptorcover.png" id="redemptorcov" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="covers/thissavagesongcov.png" id="savagesong" class="book" draggable="true" ondragstart="drag(event)" />
+                    <img src="covers/ourdarkduetcov.png" id="ourdarkduet" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="" id="c" class="book" draggable="true" ondragstart="drag(event)" />
+                </div>
+                <div>
+                </div>
+            </div>
+</div>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+
+</body>
+</html>

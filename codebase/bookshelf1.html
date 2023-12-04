@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Bookshelf 1</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <script src="myscripts.js"></script>
+
+    <div class="header">
+        <h1 class="font-effect-shadow-multiple" font-weight="bold">Sierra's Virtual Bookshelf</h1>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="photography/virtualbookshelflogo.png" class="navbar-brand">
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="bookshelf1.html">Regular Shelf</a></li>
+                <li><a href="bookshelf2.html">Floating Shelf</a></li>
+                <li><a href="bookshelf3.html">Mixed Shelves</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="leftcolumn">
+                <h2>Bookshelf</h2>
+                <div class="bookshelf">
+                    <div class="shelf topleft" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf topmiddle" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf topright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf midleft" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf midmid" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf midright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf botleft" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf botmid" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="shelf botright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <h2>Books</h2>
+                <div class="bookholder">
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="images/cityshatteredlight.png" id="cityofshatteredlight" class="book" draggable="true" ondragstart="drag(event)" alt="city of shattered light book" data-toggle="popover" title="City of Shattered Light" data-content="words"/>
+                        <img src="images/soundofstars.png" id="thesoundofstars" class="book" draggable="true" ondragstart="drag(event)" alt="the sound of stars book" />
+                        <img src="images/heartless.png" id="heartless" class="book" draggable="true" ondragstart="drag(event)" alt="heartless book" />
+                        <img src="images/thepoetx.png" id="poetx" class="book" draggable="true" ondragstart="drag(event)" alt="the poet x book" />
+                        <img src="images/stardaughter.png" id="stardaughter" class="book" draggable="true" ondragstart="drag(event)" alt="star daughter book" />
+                        <img src="images/darkstarlessforest.png" id="darkandstarlessforest" class="book" draggable="true" ondragstart="drag(event)" alt="a dark and starless forest book" />
+                        <img src="images/coolforsummer.png" id="coolforthesummer" class="book" draggable="true" ondragstart="drag(event)" alt="cool for the summer book" />
+                        <img src="images/balladsongbirdssnakes.png" id="balladofsongbirdsandsnakes" class="book" draggable="true" ondragstart="drag(event)" alt="the ballad of songbirds and snakes book" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="images/uglycry.png" id="uglycry" class="book" draggable="true" ondragstart="drag(event)" alt="Excuse me while i ugly cry book"/>
+                        <img src="images/meetcutediary.png" id="meetcutediary" class="book" draggable="true" ondragstart="drag(event)" alt="meet cute diary book"/>
+                        <img src="images/newstarshideyourfires.png" id="starshideyourfires" class="book" draggable="true" ondragstart="drag(event)" alt="stars hide your fires book"/>
+                        <img src="images/persuasion.png" id="persuasion" class="book" draggable="true" ondragstart="drag(event)" alt="persuasion book"/>
+                        <img src="images/hennawars2.png" id="hennawars" class="book" draggable="true" ondragstart="drag(event)" alt="the henna wars"/>
+                        <img src="images/distancebetweenus.png" id="distancebetweenus" class="book" draggable="true" ondragstart="drag(event)" alt="the distance between us book"/>
+                        <img src="images/fillinbfspine.png" id="fillinbfspine" class="book" draggable="true" ondragstart="drag(event)" alt="the fill in boyfriend book"/>
+                        <img src="images/radiosilence.png" id="radiosilence" class="book" draggable="true" ondragstart="drag(event)" alt="radio silence book"/>
+                        <img src="images/jackpotspine.png" id="jackpot" class="book" draggable="true" ondragstart="drag(event)" alt="jackpot book"/>
+
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="images/fallinginlovemontage.png" id="fallinginlovemontage" class="book" draggable="true" ondragstart="drag(event)" alt="falling in love montage book"/>
+                        <img src="images/beyondtheblackdoor.png" id="beyondtheblackdoor" class="book" draggable="true" ondragstart="drag(event)" alt="beyond the black door book"/>
+                        <img src="images/ruleofwolvesspine2.png" id="ruleofwolvesspine" class="book" draggable="true" ondragstart="drag(event)" alt="rule of wolves book"/>
+                        <img src="images/kingofscarsspine.png" id="kingofscarsspine" class="book" draggable="true" ondragstart="drag(event)" alt="king of scars book"/>
+                        <img src="images/redemptor.png" id="redemptor" class="book" draggable="true" ondragstart="drag(event)" alt="redemptor book"/>
+                        <img src="images/raybearer.png" id="raybearer" class="book" draggable="true" ondragstart="drag(event)" alt="raybearer book"/>
+                        <img src="images/offireandstars.png" id="offireandstars" class="book" draggable="true" ondragstart="drag(event)" alt="of fire and stars book"/>
+                        <img src="images/onthefence.png" id="onthefence" class="book" draggable="true" ondragstart="drag(event)" alt="on the fence book"/>
+
+
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="images/tarnishedarethestars.png" id="tarnishedarethestars" class="book" draggable="true" ondragstart="drag(event)" alt="tarnished are the stars book"/>
+                        <img src="images/specials.png" id="specials" class="book" draggable="true" ondragstart="drag(event)" alt="specials book"/>
+                        <img src="images/goodgirlbadblood.png" id="goodgirlbadblood" class="book" draggable="true" ondragstart="drag(event)" alt="good girl bad blood book" />
+                        <img src="images/wehunttheflame.png" id="wehunttheflame" class="book" draggable="true" ondragstart="drag(event)" alt="we hunt the flame book" />
+                        <img src="images/wefreethestars.png" id="wefreethestars" class="book" draggable="true" ondragstart="drag(event)" alt="we free the stars book"/>
+                        <img src="images/onceandfuturewitches.png" id="onceandfuturewitches" class="book" draggable="true" ondragstart="drag(event)" alt="once and future witches book"/>
+                        <img src="images/byyourside.png" id="byyourside" class="book" draggable="true" ondragstart="drag(event)" alt="by your side book"/>
+
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="images/internment.png" id="internment" class="book" draggable="true" ondragstart="drag(event)" alt="internment book"/>
+                        <img src="images/opheliaafterall.png" id="opheliaafterall" class="book" draggable="true" ondragstart="drag(event)" alt="ophelia after all book"/>
+                        <img src="images/skyinthedeep.png" id="skyinthedeep" class="book" draggable="true" ondragstart="drag(event)" alt="sky in the deep book"/>
+                        <img src="images/inkintheblood.png" id="inkintheblood" class="book" draggable="true" ondragstart="drag(event)" alt="ink in the blood book"/>
+                        <img src="images/countingdownwithyou.png" id="countingdownwithyou" class="book" draggable="true" ondragstart="drag(event)" alt="counting down with you book"/>
+                        <img src="images/haniandishu.png" id="haniandishu" class="book" draggable="true" ondragstart="drag(event)" alt="hani and ishus guide to fake dating book"/>
+                        <img src="images/howtoexcavateheart.png" id="howtoexheart" class="book" draggable="true" ondragstart="drag(event)" alt="how to excavate a heart book"/>
+                        <img src="images/summerbirdblue.png" id="summerbirdblue" class="book" draggable="true" ondragstart="drag(event)" alt="summer bird blue book"/>
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="images/shegetsthegirl.png" id="shegetsthegirl" class="book" draggable="true" ondragstart="drag(event)" alt="she gets the girl book"/>
+                        <img src="images/midnightstar.png" id="midnightstar" class="book" draggable="true" ondragstart="drag(event)" alt="the midnight star book"/>
+                        <img src="images/unchosen.png" id="unchosen" class="book" draggable="true" ondragstart="drag(event)" alt="unchosen book"/>
+                        <img src="images/cemeteryboys.png" id="cemeteryboys" class="book" draggable="true" ondragstart="drag(event)" alt="cemetery boys book"/>
+                        <img src="images/girlsedgeworld.png" id="girlsattheedgeoftheworld" class="book" draggable="true" ondragstart="drag(event)" alt="girls at the edge of the world book"/>
+                        <img src="images/alexapprox.png" id="alexapprox" class="book" draggable="true" ondragstart="drag(event)" alt="alex approxametely book"/>
+                        <img src="images/tigeratmidnight.png" id="thetigeratmidnight" class="book" draggable="true" ondragstart="drag(event)" alt="the tiger at midnight book"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+
+</body>
+</html>

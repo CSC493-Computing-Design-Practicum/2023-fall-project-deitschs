@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Bookshelf 2</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <script src="myscripts.js"></script>
+
+    <div class="header">
+        <h1 class="font-effect-shadow-multiple" font-weight="bold">Sierra's Virtual Bookshelf</h1>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="photography/virtualbookshelflogo.png" class="navbar-brand">
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bookshelf1.html">Regular Shelf</a></li>
+                <li class="active"><a href="bookshelf2.html">Floating Shelf</a></li>
+                <li><a href="bookshelf3.html">Mixed Shelves</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="leftcolumn">
+                <h2>Bookshelf</h2>
+                <div class="floatingbookshelf">
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <h2>Books</h2>
+                <div class="bookholder">
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/chalicecover.png" id="chalicebook" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Chalice of the Gods" data-content="Author, Genre, Page Count, Etc" />
+                        <img src="covers/seeyouyesterday.png" id="seeyouyesterday" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Author, Genre, Page Count, Etc" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/starsfirescover.png" id="starsfirescover" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/girlsofprfrcov.png" id="girlsofpaperandfire" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/sixofcrowscov.png" id="sixofcrowscov" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/lablostcov.png" id="lablost" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/fillinbf.png" id="thefillinboyfriend" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/countingdownwucov.png" id="countingdownwithyou" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/loveless.png" id="loveless" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/darkstarlesscov.png" id="adarkandstarlessforest" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" alt="a dark and starless forest book" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover">
+                        <img src="covers/girlsedgeofworldcov.png" id="girlsattheedgeoftheworld" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover"  alt="girls at the edge of the world book"/>
+                        <img src="covers/heartlesscov.png" id="heartless" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="floatingbookshelf">
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <div class="floatingshelf" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="bookholder">
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/jackpotscov.png" id="jackpot" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Chalice of the Gods" data-content="Author, Genre, Page Count, Etc" />
+                        <img src="covers/midnightstarcov.png" id="midnightstars" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Author, Genre, Page Count, Etc" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/sixcrimsoncanes.png" id="sixcrimsoncanes" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/ruinsongcov.png" id="ruinsong" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/seasonsofstormcov.png" id="seasonsofthestorm" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/shegetsgirlcov.png" id="shegetsthegirl" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/stardaughtercov.png" id="stardaughter" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/summerbirdbluecov.png" id="summerbirdblue" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="covers/unchosencov.png" id="unchosen" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/whichwoodcov.png" id="whichwood" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover">
+                        <img src="covers/enchofravcov.png" id="enchantmentofravens" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/namebearercov.png" id="thenamebearer" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+
+</body>
+</html>
