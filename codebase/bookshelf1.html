@@ -54,8 +54,8 @@
                 <h2>Books</h2>
                 <div class="bookholder">
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="images/cityshatteredlight.png" id="cityofshatteredlight" class="book" draggable="true" ondragstart="drag(event)" alt="city of shattered light book" data-toggle="popover" title="City of Shattered Light" data-content="words"/>
-                        <img src="images/soundofstars.png" id="thesoundofstars" class="book" draggable="true" ondragstart="drag(event)" alt="the sound of stars book" />
+                        <img src="images/cityshatteredlight.png" id="cityofshatteredlight" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#cosl" data-toggle="popover" tabindex="0" />
+                        <img src="images/soundofstars.png" id="thesoundofstars" class="book" draggable="true" ondragstart="drag(event)" alt="the sound of stars book" data-html="true" data-popover-content="#tsos" data-toggle="popover" tabindex="0" />
                         <img src="images/heartless.png" id="heartless" class="book" draggable="true" ondragstart="drag(event)" alt="heartless book" />
                         <img src="images/thepoetx.png" id="poetx" class="book" draggable="true" ondragstart="drag(event)" alt="the poet x book" />
                         <img src="images/stardaughter.png" id="stardaughter" class="book" draggable="true" ondragstart="drag(event)" alt="star daughter book" />
@@ -64,68 +64,88 @@
                         <img src="images/balladsongbirdssnakes.png" id="balladofsongbirdsandsnakes" class="book" draggable="true" ondragstart="drag(event)" alt="the ballad of songbirds and snakes book" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="images/uglycry.png" id="uglycry" class="book" draggable="true" ondragstart="drag(event)" alt="Excuse me while i ugly cry book"/>
-                        <img src="images/meetcutediary.png" id="meetcutediary" class="book" draggable="true" ondragstart="drag(event)" alt="meet cute diary book"/>
-                        <img src="images/newstarshideyourfires.png" id="starshideyourfires" class="book" draggable="true" ondragstart="drag(event)" alt="stars hide your fires book"/>
-                        <img src="images/persuasion.png" id="persuasion" class="book" draggable="true" ondragstart="drag(event)" alt="persuasion book"/>
-                        <img src="images/hennawars2.png" id="hennawars" class="book" draggable="true" ondragstart="drag(event)" alt="the henna wars"/>
-                        <img src="images/distancebetweenus.png" id="distancebetweenus" class="book" draggable="true" ondragstart="drag(event)" alt="the distance between us book"/>
-                        <img src="images/fillinbfspine.png" id="fillinbfspine" class="book" draggable="true" ondragstart="drag(event)" alt="the fill in boyfriend book"/>
-                        <img src="images/radiosilence.png" id="radiosilence" class="book" draggable="true" ondragstart="drag(event)" alt="radio silence book"/>
-                        <img src="images/jackpotspine.png" id="jackpot" class="book" draggable="true" ondragstart="drag(event)" alt="jackpot book"/>
+                        <img src="images/uglycry.png" id="uglycry" class="book" draggable="true" ondragstart="drag(event)" alt="Excuse me while i ugly cry book" />
+                        <img src="images/meetcutediary.png" id="meetcutediary" class="book" draggable="true" ondragstart="drag(event)" alt="meet cute diary book" />
+                        <img src="images/newstarshideyourfires.png" id="starshideyourfires" class="book" draggable="true" ondragstart="drag(event)" alt="stars hide your fires book" />
+                        <img src="images/persuasion.png" id="persuasion" class="book" draggable="true" ondragstart="drag(event)" alt="persuasion book" />
+                        <img src="images/hennawars2.png" id="hennawars" class="book" draggable="true" ondragstart="drag(event)" alt="the henna wars" />
+                        <img src="images/distancebetweenus.png" id="distancebetweenus" class="book" draggable="true" ondragstart="drag(event)" alt="the distance between us book" />
+                        <img src="images/fillinbfspine.png" id="fillinbfspine" class="book" draggable="true" ondragstart="drag(event)" alt="the fill in boyfriend book" />
+                        <img src="images/radiosilence.png" id="radiosilence" class="book" draggable="true" ondragstart="drag(event)" alt="radio silence book" />
+                        <img src="images/jackpotspine.png" id="jackpot" class="book" draggable="true" ondragstart="drag(event)" alt="jackpot book" />
 
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="images/fallinginlovemontage.png" id="fallinginlovemontage" class="book" draggable="true" ondragstart="drag(event)" alt="falling in love montage book"/>
-                        <img src="images/beyondtheblackdoor.png" id="beyondtheblackdoor" class="book" draggable="true" ondragstart="drag(event)" alt="beyond the black door book"/>
-                        <img src="images/ruleofwolvesspine2.png" id="ruleofwolvesspine" class="book" draggable="true" ondragstart="drag(event)" alt="rule of wolves book"/>
-                        <img src="images/kingofscarsspine.png" id="kingofscarsspine" class="book" draggable="true" ondragstart="drag(event)" alt="king of scars book"/>
-                        <img src="images/redemptor.png" id="redemptor" class="book" draggable="true" ondragstart="drag(event)" alt="redemptor book"/>
-                        <img src="images/raybearer.png" id="raybearer" class="book" draggable="true" ondragstart="drag(event)" alt="raybearer book"/>
-                        <img src="images/offireandstars.png" id="offireandstars" class="book" draggable="true" ondragstart="drag(event)" alt="of fire and stars book"/>
-                        <img src="images/onthefence.png" id="onthefence" class="book" draggable="true" ondragstart="drag(event)" alt="on the fence book"/>
+                        <img src="images/fallinginlovemontage.png" id="fallinginlovemontage" class="book" draggable="true" ondragstart="drag(event)" alt="falling in love montage book" />
+                        <img src="images/beyondtheblackdoor.png" id="beyondtheblackdoor" class="book" draggable="true" ondragstart="drag(event)" alt="beyond the black door book" />
+                        <img src="images/ruleofwolvesspine2.png" id="ruleofwolvesspine" class="book" draggable="true" ondragstart="drag(event)" alt="rule of wolves book" />
+                        <img src="images/kingofscarsspine.png" id="kingofscarsspine" class="book" draggable="true" ondragstart="drag(event)" alt="king of scars book" />
+                        <img src="images/redemptor.png" id="redemptor" class="book" draggable="true" ondragstart="drag(event)" alt="redemptor book" />
+                        <img src="images/raybearer.png" id="raybearer" class="book" draggable="true" ondragstart="drag(event)" alt="raybearer book" />
+                        <img src="images/offireandstars.png" id="offireandstars" class="book" draggable="true" ondragstart="drag(event)" alt="of fire and stars book" />
+                        <img src="images/onthefence.png" id="onthefence" class="book" draggable="true" ondragstart="drag(event)" alt="on the fence book" />
 
 
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="images/tarnishedarethestars.png" id="tarnishedarethestars" class="book" draggable="true" ondragstart="drag(event)" alt="tarnished are the stars book"/>
-                        <img src="images/specials.png" id="specials" class="book" draggable="true" ondragstart="drag(event)" alt="specials book"/>
+                        <img src="images/tarnishedarethestars.png" id="tarnishedarethestars" class="book" draggable="true" ondragstart="drag(event)" alt="tarnished are the stars book" />
+                        <img src="images/specials.png" id="specials" class="book" draggable="true" ondragstart="drag(event)" alt="specials book" />
                         <img src="images/goodgirlbadblood.png" id="goodgirlbadblood" class="book" draggable="true" ondragstart="drag(event)" alt="good girl bad blood book" />
                         <img src="images/wehunttheflame.png" id="wehunttheflame" class="book" draggable="true" ondragstart="drag(event)" alt="we hunt the flame book" />
-                        <img src="images/wefreethestars.png" id="wefreethestars" class="book" draggable="true" ondragstart="drag(event)" alt="we free the stars book"/>
-                        <img src="images/onceandfuturewitches.png" id="onceandfuturewitches" class="book" draggable="true" ondragstart="drag(event)" alt="once and future witches book"/>
-                        <img src="images/byyourside.png" id="byyourside" class="book" draggable="true" ondragstart="drag(event)" alt="by your side book"/>
+                        <img src="images/wefreethestars.png" id="wefreethestars" class="book" draggable="true" ondragstart="drag(event)" alt="we free the stars book" />
+                        <img src="images/onceandfuturewitches.png" id="onceandfuturewitches" class="book" draggable="true" ondragstart="drag(event)" alt="once and future witches book" />
+                        <img src="images/byyourside.png" id="byyourside" class="book" draggable="true" ondragstart="drag(event)" alt="by your side book" />
 
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="images/internment.png" id="internment" class="book" draggable="true" ondragstart="drag(event)" alt="internment book"/>
-                        <img src="images/opheliaafterall.png" id="opheliaafterall" class="book" draggable="true" ondragstart="drag(event)" alt="ophelia after all book"/>
-                        <img src="images/skyinthedeep.png" id="skyinthedeep" class="book" draggable="true" ondragstart="drag(event)" alt="sky in the deep book"/>
-                        <img src="images/inkintheblood.png" id="inkintheblood" class="book" draggable="true" ondragstart="drag(event)" alt="ink in the blood book"/>
-                        <img src="images/countingdownwithyou.png" id="countingdownwithyou" class="book" draggable="true" ondragstart="drag(event)" alt="counting down with you book"/>
-                        <img src="images/haniandishu.png" id="haniandishu" class="book" draggable="true" ondragstart="drag(event)" alt="hani and ishus guide to fake dating book"/>
-                        <img src="images/howtoexcavateheart.png" id="howtoexheart" class="book" draggable="true" ondragstart="drag(event)" alt="how to excavate a heart book"/>
-                        <img src="images/summerbirdblue.png" id="summerbirdblue" class="book" draggable="true" ondragstart="drag(event)" alt="summer bird blue book"/>
+                        <img src="images/internment.png" id="internment" class="book" draggable="true" ondragstart="drag(event)" alt="internment book" />
+                        <img src="images/opheliaafterall.png" id="opheliaafterall" class="book" draggable="true" ondragstart="drag(event)" alt="ophelia after all book" />
+                        <img src="images/skyinthedeep.png" id="skyinthedeep" class="book" draggable="true" ondragstart="drag(event)" alt="sky in the deep book" />
+                        <img src="images/inkintheblood.png" id="inkintheblood" class="book" draggable="true" ondragstart="drag(event)" alt="ink in the blood book" />
+                        <img src="images/countingdownwithyou.png" id="countingdownwithyou" class="book" draggable="true" ondragstart="drag(event)" alt="counting down with you book" />
+                        <img src="images/haniandishu.png" id="haniandishu" class="book" draggable="true" ondragstart="drag(event)" alt="hani and ishus guide to fake dating book" />
+                        <img src="images/howtoexcavateheart.png" id="howtoexheart" class="book" draggable="true" ondragstart="drag(event)" alt="how to excavate a heart book" />
+                        <img src="images/summerbirdblue.png" id="summerbirdblue" class="book" draggable="true" ondragstart="drag(event)" alt="summer bird blue book" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="images/shegetsthegirl.png" id="shegetsthegirl" class="book" draggable="true" ondragstart="drag(event)" alt="she gets the girl book"/>
-                        <img src="images/midnightstar.png" id="midnightstar" class="book" draggable="true" ondragstart="drag(event)" alt="the midnight star book"/>
-                        <img src="images/unchosen.png" id="unchosen" class="book" draggable="true" ondragstart="drag(event)" alt="unchosen book"/>
-                        <img src="images/cemeteryboys.png" id="cemeteryboys" class="book" draggable="true" ondragstart="drag(event)" alt="cemetery boys book"/>
-                        <img src="images/girlsedgeworld.png" id="girlsattheedgeoftheworld" class="book" draggable="true" ondragstart="drag(event)" alt="girls at the edge of the world book"/>
-                        <img src="images/alexapprox.png" id="alexapprox" class="book" draggable="true" ondragstart="drag(event)" alt="alex approxametely book"/>
-                        <img src="images/tigeratmidnight.png" id="thetigeratmidnight" class="book" draggable="true" ondragstart="drag(event)" alt="the tiger at midnight book"/>
+                        <img src="images/shegetsthegirl.png" id="shegetsthegirl" class="book" draggable="true" ondragstart="drag(event)" alt="she gets the girl book" />
+                        <img src="images/midnightstar.png" id="midnightstar" class="book" draggable="true" ondragstart="drag(event)" alt="the midnight star book" />
+                        <img src="images/unchosen.png" id="unchosen" class="book" draggable="true" ondragstart="drag(event)" alt="unchosen book" />
+                        <img src="images/cemeteryboys.png" id="cemeteryboys" class="book" draggable="true" ondragstart="drag(event)" alt="cemetery boys book" />
+                        <img src="images/girlsedgeworld.png" id="girlsattheedgeoftheworld" class="book" draggable="true" ondragstart="drag(event)" alt="girls at the edge of the world book" />
+                        <img src="images/alexapprox.png" id="alexapprox" class="book" draggable="true" ondragstart="drag(event)" alt="alex approxametely book" />
+                        <img src="images/tigeratmidnight.png" id="thetigeratmidnight" class="book" draggable="true" ondragstart="drag(event)" alt="the tiger at midnight book" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            $('[data-toggle="popover"]').popover();
-        });
-    </script>
+    <div class="container">
+        <!-- Content for Popover #1 -->
+        <div class="hidden d-none" id="cosl">
+            <div class="popover-heading">
+                City of Shattered Light
+            </div>
+            <div class="popover-body">
+                <p>Author: Clare Winn</p>
+                <p>Genre: YA Sci-fi</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Content for Popover #2 -->
+        <div class="hidden d-none" id="tsos">
+            <div class="popover-heading">
+                The Sound of Stars
+            </div>
+            <div class="popover-body">
+                <p>Author: hhhh</p>
+                <p>Genre: YA Sci-fi</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
