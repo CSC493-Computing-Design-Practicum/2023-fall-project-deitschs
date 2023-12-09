@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <script src="myscripts.js"></script>
 
     <div class="header">
         <h1 class="font-effect-shadow-multiple" font-weight="bold">Sierra's Virtual Bookshelf</h1>
@@ -54,28 +53,28 @@
                 <h2>Books</h2>
                 <div class="bookholder">
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/chalicecover.png" id="chalicebook" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Chalice of the Gods" data-content="Author, Genre, Page Count, Etc" />
-                        <img src="covers/seeyouyesterday.png" id="seeyouyesterday" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Author, Genre, Page Count, Etc" />
+                        <img src="covers/chalicecover.png" id="chalicebook" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#chalice" data-toggle="popover" tabindex="0" />
+                        <img src="covers/seeyouyesterday.png" id="seeyouyesterday" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#seeyouyest" data-toggle="popover" tabindex="0" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/starsfirescover.png" id="starsfirescover" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/girlsofprfrcov.png" id="girlsofpaperandfire" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/starsfirescover.png" id="starsfirescover" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#starshidefrs" data-toggle="popover" tabindex="0" />
+                        <img src="covers/girlsofprfrcov.png" id="girlsofpaperandfire" class="book" draggable="true" ondragstart="drag(event)"data-html="true" data-popover-content="#girlspaperfire" data-toggle="popover" tabindex="0" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/sixofcrowscov.png" id="sixofcrowscov" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/lablostcov.png" id="lablost" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/sixofcrowscov.png" id="sixofcrowscov" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#sixcrows" data-toggle="popover" tabindex="0" />
+                        <img src="covers/lablostcov.png" id="lablost" class="book" draggable="true" ondragstart="drag(event)" ddata-html="true" data-popover-content="#LabyrinthLost" data-toggle="popover" tabindex="0" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/fillinbfcov.png" id="thefillinboyfriend" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/countingdownwucov.png" id="countingdownwithyou" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/fillinbfcov.png" id="thefillinboyfriend" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#fillinbf" data-toggle="popover" tabindex="0" />
+                        <img src="covers/countingdownwucov.png" id="countingdownwithyou" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#countingdwnwithyou" data-toggle="popover" tabindex="0" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/lovelesscov.png" id="loveless" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/darkstarlesscov.png" id="adarkandstarlessforest" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" alt="a dark and starless forest book" />
+                        <img src="covers/lovelesscov.png" id="loveless" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#lvelss" data-toggle="popover" tabindex="0" />
+                        <img src="covers/darkstarlesscov.png" id="adarkandstarlessforest" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#darkstarlessforest" data-toggle="popover" tabindex="0" alt="a dark and starless forest book" />
                     </div>
-                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover">
-                        <img src="covers/girlsedgeofworldcov.png" id="girlsattheedgeoftheworld" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover"  alt="girls at the edge of the world book"/>
-                        <img src="covers/heartlesscov.png" id="heartless" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)" data-html="true" data-popover-content="#" data-toggle="popover" tabindex="0">
+                        <img src="covers/girlsedgeofworldcov.png" id="girlsattheedgeoftheworld" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#girlsedgeworld" data-toggle="popover" tabindex="0"  alt="girls at the edge of the world book"/>
+                        <img src="covers/heartlesscov.png" id="heartless" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#heartlss" data-toggle="popover" tabindex="0" />
                     </div>
                 </div>
             </div>
@@ -97,39 +96,324 @@
             <div class="rightcolumn">
                 <div class="bookholder">
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/jackpotscov.png" id="jackpot" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Chalice of the Gods" data-content="Author, Genre, Page Count, Etc" />
-                        <img src="covers/midnightstarcov.png" id="midnightstars" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Author, Genre, Page Count, Etc" />
+                        <img src="covers/jackpotscov.png" id="jackpot" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#jackbotbox" data-toggle="popover" tabindex="0" />
+                        <img src="covers/midnightstarcov.png" id="midnightstars" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#midnightstar" data-toggle="popover" tabindex="0" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/sixcrimsoncanes.png" id="sixcrimsoncanes" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/ruinsongcov.png" id="ruinsong" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/sixcrimsoncanes.png" id="sixcrimsoncanes" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#sixcranes" data-toggle="popover" tabindex="0" />
+                        <img src="covers/ruinsongcov.png" id="ruinsong" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#ruinsng" data-toggle="popover" tabindex="0" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/seasonsofstormcov.png" id="seasonsofthestorm" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/shegetsgirlcov.png" id="shegetsthegirl" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/seasonsofstormcov.png" id="seasonsofthestorm" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#seasonstorm" data-toggle="popover" tabindex="0" />
+                        <img src="covers/shegetsgirlcov.png" id="shegetsthegirl" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#shegetsgirl" data-toggle="popover" tabindex="0" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/stardaughtercov.png" id="stardaughter" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/summerbirdbluecov.png" id="summerbirdblue" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/stardaughtercov.png" id="stardaughter" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#stardaughtr" data-toggle="popover" tabindex="0" />
+                        <img src="covers/summerbirdbluecov.png" id="summerbirdblue" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#sumbrdblu" data-toggle="popover" tabindex="0" />
                     </div>
                     <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <img src="covers/unchosencov.png" id="unchosen" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/whichwoodcov.png" id="whichwood" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                        <img src="covers/unchosencov.png" id="unchosen" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#unchsn" data-toggle="popover" tabindex="0" />
+                        <img src="covers/whichwoodcov.png" id="whichwood" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#whichwd" data-toggle="popover" tabindex="0" />
                     </div>
-                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover">
-                        <img src="covers/enchofravcov.png" id="enchantmentofravens" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
-                        <img src="covers/namebearercov.png" id="thenamebearer" class="book" draggable="true" ondragstart="drag(event)" data-toggle="popover" title="Book Title" data-content="Some content inside the popover" />
+                    <div class="shelf" ondrop="drop(event)" ondragover="allowDrop(event)" data-html="true" data-popover-content="#" data-toggle="popover" tabindex="0">
+                        <img src="covers/enchofravcov.png" id="enchantmentofravens" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#enchantrav" data-toggle="popover" tabindex="0" />
+                        <img src="covers/namebearercov.png" id="thenamebearer" class="book" draggable="true" ondragstart="drag(event)" data-html="true" data-popover-content="#namebearer" data-toggle="popover" tabindex="0" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            $('[data-toggle="popover"]').popover();
-        });
-    </script>
+    <div class="container">
+        <div class="hidden d-none" id="chalice">
+            <div class="popover-heading">
+                Percy Jackson and the Olympians: The Chalice of the Gods
+            </div>
+            <div class="popover-body">
+                <p>Author: Rick Riordan</p>
+                <p>Genre: Middle Grade Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+        <div class="container">
+        <div class="hidden d-none" id="seeyouyest">
+            <div class="popover-heading">
+                See You Yesterday
+            </div>
+            <div class="popover-body">
+                <p>Author: Rachel Lynn Soloman</p>
+                <p>Genre: YA Science Fiction/Romance</p>
+            </div>
+        </div>
+    </div>
+
+            <div class="container">
+        <div class="hidden d-none" id="starshidefrs">
+            <div class="popover-heading">
+                Stars Hide Your Fires
+            </div>
+            <div class="popover-body">
+                <p>Author: Jessica Mary Best</p>
+                <p>Genre: YA Science Fiction</p>
+            </div>
+        </div>
+    </div>
+
+                <div class="container">
+        <div class="hidden d-none" id="girlsedgeworld">
+            <div class="popover-heading">
+                Girls at the Edge of the World
+            </div>
+            <div class="popover-body">
+                <p>Author: Laura Brooke Robson</p>
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                <div class="container">
+        <div class="hidden d-none" id="countingdwnwithyou">
+            <div class="popover-heading">
+                Counting Down With You
+            </div>
+            <div class="popover-body">
+                <p>Author: Tashie Bhuiyan</p>
+                <p>Genre: YA Contemporary Romance</p>
+            </div>
+        </div>
+    </div>
+
+                <div class="container">
+        <div class="hidden d-none" id="darkstarlessforest">
+            <div class="popover-heading">
+                A Dark and Starless Forest
+            </div>
+            <div class="popover-body">
+                <p>Author: Sarah Hollowell</p>
+                <p>Genre: YA Horror</p>
+            </div>
+        </div>
+    </div>
+
+                <div class="container">
+        <div class="hidden d-none" id="jackbotbox">
+            <div class="popover-heading">
+                Jackpot
+            </div>
+            <div class="popover-body">
+                <p>Author: Nic Stone</p>
+                <p>Genre: YA Contemporary Romance</p>
+            </div>
+        </div>
+    </div>
+
+               <div class="container">
+        <div class="hidden d-none" id="girlspaperfire">
+            <div class="popover-heading">
+                Girls of Paper and Fire
+            </div>
+            <div class="popover-body">
+                <p>Author: Natasha Ngan</p>
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                 <div class="container">
+        <div class="hidden d-none" id="sixcrows">
+            <div class="popover-heading">
+                Six of Crows
+            </div>
+            <div class="popover-body">
+                <p>Author: Leigh Bardugo</p>
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                 <div class="container">
+        <div class="hidden d-none" id="LabyrinthLost">
+            <div class="popover-heading">
+                Labyrinth Lost
+            </div>
+            <div class="popover-body">
+                <p>Author: Zoraida Córdova</p>
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                 <div class="container">
+        <div class="hidden d-none" id="fillinbf">
+            <div class="popover-heading">
+                The Fill-in Boyfriend
+            </div>
+            <div class="popover-body">
+                <p>Author: Kasie West</p>
+                <p>Genre: YA Contemporary Romance</p>
+            </div>
+        </div>
+    </div>
+
+                 <div class="container">
+        <div class="hidden d-none" id="lvelss">
+            <div class="popover-heading">
+                Loveless
+            </div>
+            <div class="popover-body">
+                <p>Author: Alice Oseman</p>
+                <p>Genre: YA Contemporary Romance</p>
+            </div>
+        </div>
+    </div>
+
+                 <div class="container">
+        <div class="hidden d-none" id="heartlss">
+            <div class="popover-heading">
+                Heartless
+            </div>
+            <div class="popover-body">
+                <p>Author: Marissa Meyer</p>
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                  <div class="container">
+        <div class="hidden d-none" id="midnightstar">
+            <div class="popover-heading">
+                The Midnight Star
+            </div>
+            <div class="popover-body">
+                <p>Author: The Midnight Star</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="sixcranes">
+            <div class="popover-heading">
+                Six Crimson Cranes
+            </div>
+            <div class="popover-body">
+                <p>Author: Elizabeth Lim</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="ruinsng">
+            <div class="popover-heading">
+                Ruinsong
+            </div>
+            <div class="popover-body">
+                <p>Author: Julia Ember</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="seasonstorm">
+            <div class="popover-heading">
+                Seasons of the Storm
+            </div>
+            <div class="popover-body">
+                <p>Author: Elle Cosimano</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="shegetsgirl">
+            <div class="popover-heading">
+                She Gets the Girl
+            </div>
+            <div class="popover-body">
+                <p>Author: Rachel Lippincott and Alyson Derrick</p> 
+                <p>Genre: YA Contemporary Romance</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="stardaughtr">
+            <div class="popover-heading">
+                Star Daughter
+            </div>
+            <div class="popover-body">
+                <p>Author: Shveta Thakrar</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="sumbrdblu">
+            <div class="popover-heading">
+                Summer Bird Blue
+            </div>
+            <div class="popover-body">
+                <p>Author: Akemi Dawn Bowman</p> 
+                <p>Genre: YA Contemporary Romance</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="unchsn">
+            <div class="popover-heading">
+                Unchosen
+            </div>
+            <div class="popover-body">
+                <p>Author: Katharyn Blair</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="whichwd">
+            <div class="popover-heading">
+                Whichwod
+            </div>
+            <div class="popover-body">
+                <p>Author: Tahereh Mafi</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="enchantrav">
+            <div class="popover-heading">
+                An Enchantment of Ravens
+            </div>
+            <div class="popover-body">
+                <p>Author: Margaret Rogerson</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+                     <div class="container">
+        <div class="hidden d-none" id="namebearer">
+            <div class="popover-heading">
+                The Name Bearer
+            </div>
+            <div class="popover-body">
+                <p>Author: Natalia Hernandez</p> 
+                <p>Genre: YA Fantasy</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="myscripts.js"></script>
 
 </body>
 </html>
